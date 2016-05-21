@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+	<head>
+		<meta charset="UTF-8">
+		<title>Sedona</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<base href="http://localhost">
+		<link rel="shortcut icon" href="img/icon.png" type="image/png">
+		<link rel="stylesheet" href="css/normalize.min.css">
+		<link rel="stylesheet" href="jquery.datetimepicker.css">
+		<link rel="stylesheet" href="css/jquery-ui.min.css">
+		<ink rel="stylesheet" href="css/jquery-ui.structure.min.css"></ink>
+		<link rel="stylesheet" href="css/jquery-ui.theme.min.css">
+		<link rel="stylesheet" href="css/style.min.css">
+	</head>
+
+	<body>
+		<header class="main-header">
+			<nav class="main-navigation" id="main-nav">
+				<button class="main-navigation__toggle-close" id="cross">
+					<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="22.199px" height="22.199px" viewBox="0 0 22.199 22.199" enable-background="new 0 0 22.199 22.199" xml:space="preserve" fill="currentColor">
+						<polygon points="22.199,2.804 19.396,0 11.1,8.297 2.804,0 0,2.803 8.297,11.1 0,19.396 2.803,22.199 11.1,13.902 19.396,22.199 
+				22.199,19.396 13.903,11.1 " />
+					</svg>
+				</button>
+				<ul class="main-navigation__list" id="nav-list">
+					<li>
+						<a href="#" class="main-navigation__link active">ИНФОРМАЦИЯ</a>
+					</li>
+					<li>
+						<a href="#" class="main-navigation__link">ФОТО И ВИДЕО</a>
+					</li>
+					<li>
+						<a href="#map-of-sedona" class="main-navigation__link">КАРТА ШТАТА</a>
+					</li>
+					<li>
+						<a href="http://localhost/hotels.html" class="main-navigation__link">ГОСТИНИЦЫ</a>
+					</li>
+				</ul>
+			</nav>
+			<div class="main-header__logo-container">
+				<a href="#" class="main-header__logo" title="Главная страница">
+					<img src="img/logo.svg" alt="Главная страница" width="138" height="70">
+				</a>
+				<button class="main-navigation__hamburger" id="hamb">
+					<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="22.928px" height="21.982px" viewBox="0 0 22.928 21.982" enable-background="new 0 0 22.928 21.982" xml:space="preserve" fill="currentColor">
+						<g>
+							<rect width="22.928" height="3.964" />
+							<rect y="9.009" width="22.928" height="3.964" />
+							<rect y="18.018" width="22.928" height="3.964" />
+						</g>
+					</svg>
+				</button>
+			</div>
+		</header>
+
+		<div class="intro">
+			<div class="intro__slogan">
+				<img src="img/text-intro_welcome_to.svg" class="intro__greating" alt="welcome to the gorgeous">
+				<img src="img/text-intro_sedona.svg" class="intro__name" alt="sedona">
+				<img src="img/text-intro_because_the.svg" class="intro__caption" alt="because the grand canyon sucks!">
+			</div>
+		</div>
+
+		<section class="main-contant">
+			<div class="main-contant__introduction">
+				<h1 class="main-contant__title">СЕДОНА — небольшой городок в АРИЗОНЕ, заслуживающий большего!</h1>
+				<p class="main-contant__intro">Рассмотрим 5 причин, по которым Седона круче чем гранд каньон!</p>
+			</div>
+			<div class="main-contant__first-reason">
+				<div class="main-contant__first-reason-info">
+					<h2 class="main-contant__first-reason-title">НАСТОЯЩИЙ ГОРОДОК</h2>
+					<span class="main-contant__first-reason-number">— №1 —</span>
+					<p class="main-contant__first-reason-content">СЕДОНА НЕ АТРАКЦИОН ДЛЯ ТУРИСТОВ, ТАМ ТЕЧЕТ СВОЯ ЖИЗНЬ</p>
+				</div>
+				<div class="main-contant__first-reason-image">
+					<picture>
+						<source srcset="img/retina/photo-city@2x.jpg 2x">
+						<img src="img/retina/photo-city@1x.jpg" alt="Open range - ресторан">
+					</picture>
+				</div>
+			</div>
+			<div class="main-contant__offers">
+				<div class="main-contant__lodging">
+					<h2 class="main-contant__lodging-title">Жилье</h2>
+					<p class="main-contant__lodging-content">Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
+				</div>
+				<div class="main-contant__food">
+					<h2 class="main-contant__food-title">ЕДА</h2>
+					<p class="main-contant__food-content">Всегда заказывай ФИРМЕННЫЙ БУРГЕР, Вы НЕ разочаруетесь!</p>
+				</div>
+				<div class="main-contant__souvenirs">
+					<h2 class="main-contant__souvenirs-title">СУВЕНИРЫ</h2>
+					<p class="main-contant__souvenirs-content">Не только китайского, но и местного производства!</p>
+				</div>
+			</div>
+			<div class="main-contant__second-reason">
+				<div class="main-contant__second-reason-info">
+					<h2 class="main-contant__second-reason-title">ТАМ ЕСТЬ Мост дьявола</h2>
+					<span class="main-contant__second-reason-number">— №2 —</span>
+					<p class="main-contant__second-reason-content">Да, по нему можно пройти! Если конечно вы осмелитесь</p>
+				</div>
+				<div class="main-contant__second-reason-image">
+					<picture>
+						<source srcset="img/retina/photo-bridge@2x.jpg 2x">
+						<img src="img/retina/photo-bridge@1x.jpg" alt="Каньены в близи Седоны">
+					</picture>
+				</div>
+			</div>
+			<div class="main-contant__reasons">
+				<div class="main-contant__3-reason">
+					<h2 class="main-contant__3-reason-title">НЕБОЛЬШАЯ ПЛОЩАДЬ</h2>
+					<span class="main-contant__3-reason-number">— №3 —</span>
+					<p class="main-contant__3-reason-content">ВСЕ достопримечательности находятся очень близко</p>
+				</div>
+				<div class="main-contant__4-reason">
+					<h2 class="main-contant__4-reason-title">КРАСИВАЯ ДОРОГА</h2>
+					<span class="main-contant__4-reason-number">— №4 —</span>
+					<p class="main-contant__4-reason-content">ЕХАТЬ В СЕДОНУ ИЗ ЛАС-ВЕГАСА совсем НЕ СКУЧНО!</p>
+				</div>
+				<div class="main-contant__5-reason">
+					<h2 class="main-contant__5-reason-title">МАЛО ТУРИСТОВ</h2>
+					<span class="main-contant__5-reason-number">— №5 —</span>
+					<p class="main-contant__5-reason-content">Большинство едет в гранд каньон и толпится там</p>
+				</div>
+			</div>
+		</section>
+
+
+		<section class="hotels">
+			<div class="hotels__wrap">
+				<div class="hotels__title-wrapper">
+					<h1 class="hotels__title">ЗАИНТЕРЕСОВАЛИСЬ?</h1>
+					<p class="hotels__instruction">Укажите предполагаемые даты поездки и мы покажем вам лучшие предложения гостиниц в седоне</p>
+				</div>
+				<form class="search-form" action="hotels.html" method="get">
+					<button class="search-form__btn-search" id="btn-search">ПОИСК ГОСТИНИЦЫ В седоне</button>
+					<div class="search-form__wrapper" id="search-hotels">
+						<div class="search-form__lab-wrapper">
+							<label class="search-form__lab-label" for="date-lab">Дата заезда:</label>
+							<input id="date-lab" class="search-form__lab" type="text" placeholder="24 апреля 2014" required>
+							<button class="search-form__lab-calendar" id="lab-calendar">
+								<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="19.875px" height="21.916px" viewBox="0 0 19.875 21.916" enable-background="new 0 0 19.875 21.916" xml:space="preserve" fill="currentColor">
+									<g>
+										<path d="M17.04,2h-2.081V0h-2v2H6.917V0h-2v2H2.835C1.275,2,0,3.275,0,4.835v14.246c0,1.56,1.275,2.835,2.835,2.835H17.04
+								c1.56,0,2.835-1.275,2.835-2.835V4.835C19.875,3.275,18.6,2,17.04,2z M17.875,19.081c0,0.453-0.383,0.835-0.835,0.835H2.835
+								C2.383,19.916,2,19.534,2,19.081V4.835C2,4.382,2.383,4,2.835,4H17.04c0.452,0,0.835,0.382,0.835,0.835V19.081z" />
+										<rect x="4.917" y="6.958" width="2" height="2" />
+										<rect x="12.959" y="6.958" width="2" height="2" />
+										<rect x="8.938" y="6.958" width="2" height="2" />
+										<rect x="4.917" y="10.958" width="2" height="2" />
+										<rect x="12.959" y="10.958" width="2" height="2" />
+										<rect x="8.938" y="10.958" width="2" height="2" />
+										<rect x="4.917" y="14.942" width="2" height="2" />
+										<rect x="12.959" y="14.942" width="2" height="2" />
+										<rect x="8.938" y="14.942" width="2" height="2" />
+									</g>
+								</svg>
+							</button>
+						</div>
+						<div class="search-form__exit-wrapper">
+							<label class="search-form__exit-label" for="date-exit">Дата Выезда:</label>
+							<input id="date-exit" class="search-form__exit" type="text" placeholder="4 июля 2014" required>
+							<button class="search-form__exit-calendar" id="exit-calendar">
+								<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="19.875px" height="21.916px" viewBox="0 0 19.875 21.916" enable-background="new 0 0 19.875 21.916" xml:space="preserve" fill="currentColor">
+									<g>
+										<path d="M17.04,2h-2.081V0h-2v2H6.917V0h-2v2H2.835C1.275,2,0,3.275,0,4.835v14.246c0,1.56,1.275,2.835,2.835,2.835H17.04
+								c1.56,0,2.835-1.275,2.835-2.835V4.835C19.875,3.275,18.6,2,17.04,2z M17.875,19.081c0,0.453-0.383,0.835-0.835,0.835H2.835
+								C2.383,19.916,2,19.534,2,19.081V4.835C2,4.382,2.383,4,2.835,4H17.04c0.452,0,0.835,0.382,0.835,0.835V19.081z" />
+										<rect x="4.917" y="6.958" width="2" height="2" />
+										<rect x="12.959" y="6.958" width="2" height="2" />
+										<rect x="8.938" y="6.958" width="2" height="2" />
+										<rect x="4.917" y="10.958" width="2" height="2" />
+										<rect x="12.959" y="10.958" width="2" height="2" />
+										<rect x="8.938" y="10.958" width="2" height="2" />
+										<rect x="4.917" y="14.942" width="2" height="2" />
+										<rect x="12.959" y="14.942" width="2" height="2" />
+										<rect x="8.938" y="14.942" width="2" height="2" />
+									</g>
+								</svg>
+							</button>
+						</div>
+						<div class="search-form__visiters">
+							<div class="search-form__adult-wrapper">
+								<label for="adult" class="search-form__adult-label">ВзрослыЕ:</label>
+								<div class="search-form__adult">
+									<button id="adult-minus" class="search-form__adult-minus">
+										<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="9.917px" height="1.917px" viewBox="0 0 9.917 1.917" enable-background="new 0 0 9.917 1.917" xml:space="preserve" fill="currentColor">
+											<rect width="9.917" height="1.917" />
+										</svg>
+									</button>
+									<input id="adult" class="search-form__adult-counter" type="number" value="0" min="0">
+									<button id="adult-plus" class="search-form__adult-plus">
+										<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="9.917px" height="9.917px" viewBox="0 0 9.917 9.917" enable-background="new 0 0 9.917 9.917" xml:space="preserve" fill="currentColor">
+											<polygon points="9.917,4 5.917,4 5.917,0 4,0 4,4 0,4 0,5.917 4,5.917 4,9.917 5.917,9.917 5.917,5.917 9.917,5.917 " />
+										</svg>
+									</button>
+								</div>
+							</div>
+							<div class="search-form__kids-wrapper">
+								<label for="kids" class="search-form__kids-label">ДетИ:</label>
+								<div class="search-form__kids">
+									<button id="kids-minus" class="search-form__kids-minus">
+										<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="9.917px" height="1.917px" viewBox="0 0 9.917 1.917" enable-background="new 0 0 9.917 1.917" xml:space="preserve" fill="currentColor">
+											<rect width="9.917" height="1.917" />
+										</svg>
+									</button>
+									<input id="kids" class="search-form__kids-counter" type="number" value="2" min="0">
+									<button id="kids-plus" class="search-form__kids-plus">
+										<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="9.917px" height="9.917px" viewBox="0 0 9.917 9.917" enable-background="new 0 0 9.917 9.917" xml:space="preserve" fill="currentColor">
+											<polygon points="9.917,4 5.917,4 5.917,0 4,0 4,4 0,4 0,5.917 4,5.917 4,9.917 5.917,9.917 5.917,5.917 9.917,5.917 " />
+										</svg>
+									</button>
+								</div>
+							</div>
+						</div>
+						<button class="search-form__btn-find" id="btn-find" type="submit">НАЙТИ</button>
+					</div>
+				</form>
+			</div>
+			<div class="map" id="map-of-sedona">
+			</div>
+		</section>
+
+		<footer class="main-footer">
+			<a href="https://www.instagram.com/visitsedona/" class="main-footer__instagram" title="instagram">#visitSEDONA</a>
+			<div class="social-buttons">
+				<a href="https://twitter.com/cityofsedonaaz" class="social-buttons__twitter" title="twitter">
+					<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="17.5px" height="14.663px" viewBox="0 0 17.5 14.663" enable-background="new 0 0 17.5 14.663" xml:space="preserve" fill="currentColor">
+						<g>
+							<g>
+								<path fill-rule="evenodd" clip-rule="evenodd" d="M11.283,0.153c1.736-0.484,3.074,0.264,3.685,1.15
+							c0.694-0.225,1.372-0.47,2.072-0.69c-0.004,0.841-0.538,1.478-0.883,1.728C16.861,2.506,17.5,1.86,17.5,1.86
+							c-0.175,0.977-1.035,1.746-1.611,1.977C15.65,10.429,12.617,14.793,5.507,14.66c-0.538,0,0.077,0-0.46,0
+							c-0.422,0-4.29-0.45-5.047-1.843c2.341,0.192,4.011-0.412,4.835-1.15c-0.989-0.293-2.761-0.464-3.07-2.881
+							c0.362,0.105,0.583,0.223,1.228,0.117C1.757,8.067,0.385,7.366,0.461,5.218c0.294,0.319,1.1,0.523,1.381,0.461
+							c-0.725-0.235-2.03-3.281-0.921-4.836C2.794,2.655,4.769,4.364,8.29,4.528C8.506,2.288,9.461,0.788,11.283,0.153z" />
+							</g>
+						</g>
+					</svg>
+				</a>
+				<a href="https://www.facebook.com/VisitSedona" class="social-buttons__facebook" title="facebook">
+					<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="8.672px" height="18.944px" viewBox="0 0 8.672 18.944" enable-background="new 0 0 8.672 18.944" xml:space="preserve" fill="currentColor">
+						<path d="M6.275,3.356c0.799,0,1.599,0,2.398,0c0-1.119,0-2.237,0-3.356c-0.959,0-1.92,0-2.878,0C2.656,0.181,1.54,2.387,1.948,6.114
+				H0v3.518h1.959c0,3.104,0,6.208,0,9.312c1.279,0,2.559,0,3.837,0c0-3.104,0-6.208,0-9.312h2.857V6.114H5.787
+				C5.765,5.069,5.75,3.709,6.275,3.356z" />
+					</svg>
+				</a>
+				<a href="https://www.youtube.com/watch?v=qhdB9UmrRWM" class="social-buttons__youtube" title="youtube">
+					<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="19.979px" height="14.015px" viewBox="0 0 19.979 14.015" enable-background="new 0 0 19.979 14.015" xml:space="preserve" fill="currentColor">
+						<path d="M17.145,0H2.835C1.275,0,0,1.275,0,2.835v8.345c0,1.56,1.275,2.835,2.835,2.835h14.31c1.56,0,2.835-1.275,2.835-2.835V2.835
+				C19.979,1.275,18.704,0,17.145,0z M7.036,10.392V3.623l6.769,3.384L7.036,10.392z" />
+					</svg>
+				</a>
+			</div>
+			<div class="main-footer__copyright">
+				<span class="main-footer__copyright-text">Website by</span>
+				<a href="http://glukhanko.ru/" class="main-footer__copyright-author">
+					<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="25.988px" height="29.922px" viewBox="0 0 25.988 29.922" enable-background="new 0 0 25.988 29.922" xml:space="preserve" fill="currentColor">
+						<path d="M0,0h25.988v29.922l-12.994-4.811L0,29.922V0z M20.154,17.895c-0.241,0-0.509-0.006-0.801-0.018
+				c-0.293-0.014-0.508-0.051-0.645-0.116c-0.225-0.103-0.391-0.26-0.5-0.469c-0.107-0.21-0.162-0.492-0.162-0.854
+				c0-0.394,0.018-1.211,0.055-2.457c0.035-1.244,0.054-2.319,0.054-3.226c0-0.858-0.146-1.556-0.439-2.088
+				c-0.294-0.535-0.688-0.942-1.186-1.223c-0.522-0.289-1.108-0.481-1.758-0.572c-0.65-0.093-1.365-0.139-2.143-0.139
+				c-0.562,0-1.172,0.067-1.83,0.199c-0.659,0.132-1.24,0.318-1.746,0.56C8.54,7.725,8.104,8.02,7.747,8.377
+				C7.39,8.734,7.211,9.137,7.211,9.586c0,0.521,0.173,0.946,0.519,1.271c0.346,0.323,0.857,0.486,1.533,0.486
+				c0.476,0,0.827-0.043,1.057-0.132c0.229-0.089,0.437-0.213,0.622-0.374c0.138-0.12,0.242-0.283,0.314-0.487
+				c0.072-0.205,0.109-0.375,0.109-0.511c0-0.306-0.057-0.622-0.169-0.952c-0.113-0.329-0.181-0.573-0.206-0.734
+				c0.145-0.104,0.335-0.207,0.572-0.308c0.237-0.101,0.533-0.151,0.886-0.151c0.393,0,0.71,0.089,0.952,0.265
+				c0.241,0.177,0.417,0.393,0.53,0.651c0.104,0.225,0.172,0.501,0.205,0.831c0.032,0.327,0.048,0.593,0.048,0.794v1.155
+				c-0.467,0.224-1.207,0.48-2.22,0.767c-1.013,0.285-1.881,0.56-2.604,0.826c-0.378,0.143-0.726,0.3-1.043,0.471
+				c-0.317,0.169-0.597,0.38-0.838,0.639c-0.265,0.281-0.47,0.605-0.615,0.969c-0.145,0.366-0.217,0.811-0.217,1.333
+				c0,0.909,0.329,1.637,0.989,2.189c0.658,0.551,1.455,0.825,2.388,0.825c0.627,0,1.115-0.044,1.465-0.132
+				c0.35-0.089,0.714-0.223,1.091-0.396c0.29-0.138,0.561-0.303,0.814-0.494c0.253-0.193,0.517-0.426,0.791-0.699h0.072
+				c0.168,0.546,0.484,0.965,0.949,1.259c0.465,0.293,1.19,0.438,2.176,0.438c0.536,0,1.045-0.064,1.525-0.192s0.896-0.269,1.25-0.421
+				V17.895z M14.133,16.593c-0.217,0.265-0.468,0.487-0.754,0.668c-0.286,0.183-0.65,0.271-1.094,0.271
+				c-0.419,0-0.771-0.139-1.057-0.42c-0.286-0.282-0.429-0.738-0.429-1.364c0-0.475,0.083-0.887,0.253-1.238
+				c0.169-0.349,0.403-0.638,0.701-0.862c0.282-0.217,0.644-0.424,1.087-0.622c0.443-0.197,0.89-0.372,1.342-0.525L14.133,16.593z" />
+					</svg>
+				</a>
+				<span class="main-footer__copyright-text">for</span>
+				<a href="https://htmlacademy.ru/" class="main-footer__copyright-rightholder">
+					<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="26.096px" height="33.803px" viewBox="0 0 26.096 33.803" enable-background="new 0 0 26.096 33.803" xml:space="preserve" fill="currentColor">
+						<g>
+							<path d="M13.047,0L0,1.456v24.475l13.047,7.835v0.037l13.049-7.872V1.557L13.047,0z M24.037,24.745l-10.989,6.622v-7.385
+				l-6.369-2.858v-0.021l6.373-2.816v-0.02h0.001v0.011l6.366,2.814v-0.006l0.01,0.006v-1.234l-6.366-2.813l-0.003,0.003l-0.007-0.003
+				v0.011h-0.001v-0.003L6.679,19.87v-1.235l0,0l5.848-2.584l-1.385-0.622l-4.463,1.973v-1.234l3.077-1.36l-1.385-0.622l-1.692,0.748
+				v-1.234l0.306-0.135l-3.73-1.674l9.793-4.248V2.084l10.989,1.321V24.745z" />
+							<polygon points="19.428,17.389 14.958,15.414 13.57,16.035 19.428,18.624 	" />
+							<polygon points="19.428,14.921 17.734,14.172 16.346,14.793 19.428,16.155 	" />
+						</g>
+					</svg>
+				</a>
+			</div>
+		</footer>
+
+
+		<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false" async></script>
+		<script src="js/jquery-2.2.3.min.js"></script>
+		<script src="js/modernizr-custom.js"></script>
+		<script src="js/jquery-ui.min.js"></script>
+		<script src="jquery.datetimepicker.min.js"></script>
+		<script src="js/script.min.js"></script>
+	</body>
+
+</html>

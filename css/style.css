@@ -82,7 +82,6 @@ input[type=number]::-webkit-outer-spin-button,
 input[type=number]::-webkit-inner-spin-button {
 	-webkit-appearance: none;
 	   -moz-appearance: none;
-	        appearance: none;
 	margin: 0;
 }
 
@@ -2015,7 +2014,7 @@ input {
 	height: 224px;
 }
 
-@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+@media (min-resolution: 192dpi), (min-resolution: 2dppx) {
 	.intro__slogan {
 		background: #b67a6d url(../img/retina/photo-background@2x.jpg) 50% 50% no-repeat;
 	}
@@ -2600,4 +2599,4 @@ input {
 		height: 224px;
 	}
 }
-
+

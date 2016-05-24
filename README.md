@@ -2,7 +2,7 @@
 
 ## [верстка основной страницы сайта sedona на gh-pages](http://mauserkurz.github.io/sedona/)
 ## [верстка страницы формы поиска на gh-pages](http://mauserkurz.github.io/sedona/hotels.html)
-* описание: сайт 
+* описание: туристический сайт 
 * responsive верстка 320/768/1200 px
 * основной язык: русский
 

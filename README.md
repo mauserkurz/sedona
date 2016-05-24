@@ -20,6 +20,7 @@
 * mobile-first
 * БЭМ
 * SVG
+* flex-box сетка
 * ретинизация изображений
 * изображения оптимизированны через FileOptimizer
 * fav-icon
